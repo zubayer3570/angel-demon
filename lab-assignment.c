@@ -4,7 +4,7 @@ int main()
     int event_count, u_demon = 0, angle = 0;
     printf("Enter the number of events: ");
     scanf("%d", &event_count);
-    int events[100];
+    int events[event_count];
     int temp = event_count;
     while (event_count--)
     {
